@@ -6,6 +6,7 @@ from matplotlib.font_manager import FontProperties
 import seaborn as sns
 import functions
 
+st.sidebar.title('MyChatScope')
 st.sidebar.title('WhatsApp Chat Analyzer')
 file = st.sidebar.file_uploader("Choose a file")
 
